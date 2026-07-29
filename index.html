@@ -1,69 +1,66 @@
-/* GLOBAL */
-body {
-    margin: 0;
-    font-family: "Georgia", serif;
-    background-color: #000000;
-    color: #e6e6e6;
-    line-height: 1.6;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liminal House Media</title>
 
-h1, h2, h3 {
-    font-weight: 300;
-    letter-spacing: 1px;
-}
+    <style>
+        body {
+            background-color: #000000;   /* PURE BLACK */
+            color: #e6e6e6;              /* Soft white text */
+            margin: 0;
+            font-family: Georgia, serif;
+            text-align: center;
+        }
 
-a {
-    text-decoration: none;
-    color: #c9a86a;
-}
+        h1 {
+            font-size: 4rem;             /* Bigger heading */
+            letter-spacing: 2px;
+            margin-top: 120px;
+        }
 
-/* HERO */
-.hero {
-    text-align: center;
-    padding: 120px 20px 80px;
-}
+        .projects {
+            margin-top: 80px;
+        }
 
-.main-title {
-    font-size: 4rem;      /* Bigger heading */
-    margin: 0;
-    letter-spacing: 2px;
-}
+        .project-card {
+            background: #111111;
+            padding: 25px;
+            margin: 20px auto;
+            max-width: 500px;
+            border-radius: 6px;
+            border: 1px solid #222;
+        }
 
-.tagline {
-    margin-top: 10px;
-    font-size: 1.3rem;
-    opacity: 0.8;
-}
+        a {
+            color: #c9a86a;              /* Gold accent */
+            text-decoration: none;
+        }
+    </style>
+</head>
 
-/* PROJECTS */
-.projects {
-    padding: 60px 20px;
-    max-width: 900px;
-    margin: auto;
-}
+<body>
 
-.project-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-    gap: 30px;
-    margin-top: 40px;
-}
+    <h1>Liminal House Media</h1>
+    <p>Stories from the threshold.</p>
 
-.project-card {
-    background: #111111;
-    padding: 25px;
-    border-radius: 6px;
-    border: 1px solid #222;
-}
+    <section class="projects">
+        <h2>Featured Work</h2>
 
-.project-card p {
-    opacity: 0.85;
-}
+        <div class="project-card">
+            <h3>Notes From the Veil</h3>
+            <p>Atmospheric dispatches from the edges of the known world.</p>
+            <a href="veil.html">Enter the Veil</a>
+        </div>
 
-/* FOOTER */
-footer {
-    text-align: center;
-    padding: 20px;
-    opacity: 0.6;
-    margin-top: 40px;
-}
+        <div class="project-card">
+            <h3>The Crossroads</h3>
+            <p>A narrative exploration of choices, consequences, and the spaces between.</p>
+            <a href="crossroads.html">Step Into the Crossroads</a>
+        </div>
+    </section>
+    <!-- FOOTER -->
+    <footer><p>Liminal Houise Media - © 2026 </p></footer>
+</body>
+</html>
