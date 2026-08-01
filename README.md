@@ -1,2 +1,2 @@
 # liminalhousemedia
-(liminalhousemedia.com/main.jpeg)
+![Main](main.jpeg)
